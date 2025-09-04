@@ -15,3 +15,10 @@ if(true){
     console.log(blockVar);
 } 
 // console.log(blockVar); // Error: blockVar is not defined
+
+//Typeof operator
+console.log(typeof person); //string
+console.log(typeof pi);
+console.log(typeof true); //boolean
+console.log(typeof("HI my name is abdullah")); //string
+console.log(typeof 3.14);
