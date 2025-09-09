@@ -28,3 +28,14 @@ for( const key of Object.keys(clothingItem) ) {
     console.log(key, ":", clothingItem[key])  // price : 50, color : beige, material : cotton, season : autumn
     
 }
+
+const result = [];
+const drone = {
+    speed: 100,
+    color: 'yellow'
+}
+const droneKeys = Object.keys(drone);
+droneKeys.forEach( function(key) {
+    result.push([key, drone[key]])
+})
+console.log(result) // [['speed',100],['color','yellow']]

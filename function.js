@@ -23,3 +23,14 @@ function letterFinder(word,match){
 }
 
 letterFinder("test","t");
+
+
+// arrow method
+const add = (a,b)=> a+b;
+console.log(add(3,5)); // 8
+
+const square = x => x*x;
+console.log(square(4)); // 16
+
+const greeting = () => console.log("Hello!");
+greeting(); // Hello!
